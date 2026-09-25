@@ -1,0 +1,13 @@
+# large / regenerable artifacts — never committed
+data/
+models/
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.onnx
+checkpoint-*/
+runs/
+wandb/
+__pycache__/
+.ipynb_checkpoints/
