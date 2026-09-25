@@ -1,0 +1,24 @@
+{
+  "n_urls": 1000,
+  "phishing": 500,
+  "legit": 500,
+  "variants": [
+    "plain",
+    "inverted_color",
+    "logo",
+    "styled",
+    "ascii"
+  ],
+  "ecc": {
+    "plain": "M",
+    "inverted_color": "M",
+    "logo": "H",
+    "styled": "H",
+    "ascii": "M"
+  },
+  "styled": "circle modules, solid colour (30,80,190) on white",
+  "inverted_color": "light (235,225,140) modules on dark (25,35,85)",
+  "logo_width_ratio": 0.25,
+  "ascii_render": "DejaVu Sans Mono 14px, line-height 1.2",
+  "seed": 7
+}
