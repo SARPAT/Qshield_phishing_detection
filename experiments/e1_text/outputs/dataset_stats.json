@@ -1,0 +1,12 @@
+{
+  "source": "zefang-liu/phishing-email-dataset (Hugging Face)",
+  "raw_rows": 18650,
+  "after_removing_empty": 18098,
+  "label_conflict_texts_removed": 0,
+  "duplicates_removed": 585,
+  "final_rows": 17513,
+  "phishing": 6536,
+  "legitimate": 10977,
+  "words_median": 167,
+  "words_p95": 1240
+}
