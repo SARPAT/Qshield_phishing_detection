@@ -1,0 +1,22 @@
+{
+  "n": 1000,
+  "decode_success": {
+    "dec_plain_pyzbar": 1.0,
+    "dec_plain_zx": 1.0,
+    "dec_inv_pyzbar": 0.0,
+    "dec_inv_zx": 1.0,
+    "dec_ascii_zx": 1.0
+  },
+  "ocr_len_ratio_median": 1.0,
+  "ocr_failures": 0,
+  "stubs": [
+    "Please see the attached document.",
+    "Details are in the attached image.",
+    "Please review the attachment at your earliest convenience.",
+    "Scan the code below for more information.",
+    "Kindly find the information attached.",
+    "Refer to the attached notice."
+  ],
+  "lure_render": "DejaVu Sans 18px, first 600 chars, max 10 lines",
+  "seed": 11
+}

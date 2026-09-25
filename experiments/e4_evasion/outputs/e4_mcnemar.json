@@ -1,0 +1,98 @@
+[
+  {
+    "variant":"V0 original",
+    "A":"C4 QShield",
+    "B":"C1 text",
+    "A_right_B_wrong":0,
+    "A_wrong_B_right":0,
+    "p_value_exact":1.0
+  },
+  {
+    "variant":"V1 lure-as-image",
+    "A":"C4 QShield",
+    "B":"C1 text",
+    "A_right_B_wrong":467,
+    "A_wrong_B_right":8,
+    "p_value_exact":1.263413508e-126
+  },
+  {
+    "variant":"V2 plain QR",
+    "A":"C4 QShield",
+    "B":"C1 text",
+    "A_right_B_wrong":338,
+    "A_wrong_B_right":43,
+    "p_value_exact":6.25210368e-58
+  },
+  {
+    "variant":"V3 inverted QR",
+    "A":"C4 QShield",
+    "B":"C1 text",
+    "A_right_B_wrong":338,
+    "A_wrong_B_right":43,
+    "p_value_exact":6.25210368e-58
+  },
+  {
+    "variant":"V4 ASCII QR",
+    "A":"C4 QShield",
+    "B":"C1 text",
+    "A_right_B_wrong":338,
+    "A_wrong_B_right":43,
+    "p_value_exact":6.25210368e-58
+  },
+  {
+    "variant":"V5 image+inv QR",
+    "A":"C4 QShield",
+    "B":"C1 text",
+    "A_right_B_wrong":492,
+    "A_wrong_B_right":49,
+    "p_value_exact":4.5510684e-93
+  },
+  {
+    "variant":"V0 original",
+    "A":"C4 QShield",
+    "B":"C3 +OCR+QR (pyzbar)",
+    "A_right_B_wrong":0,
+    "A_wrong_B_right":0,
+    "p_value_exact":1.0
+  },
+  {
+    "variant":"V1 lure-as-image",
+    "A":"C4 QShield",
+    "B":"C3 +OCR+QR (pyzbar)",
+    "A_right_B_wrong":0,
+    "A_wrong_B_right":0,
+    "p_value_exact":1.0
+  },
+  {
+    "variant":"V2 plain QR",
+    "A":"C4 QShield",
+    "B":"C3 +OCR+QR (pyzbar)",
+    "A_right_B_wrong":0,
+    "A_wrong_B_right":0,
+    "p_value_exact":1.0
+  },
+  {
+    "variant":"V3 inverted QR",
+    "A":"C4 QShield",
+    "B":"C3 +OCR+QR (pyzbar)",
+    "A_right_B_wrong":338,
+    "A_wrong_B_right":43,
+    "p_value_exact":6.25210368e-58
+  },
+  {
+    "variant":"V4 ASCII QR",
+    "A":"C4 QShield",
+    "B":"C3 +OCR+QR (pyzbar)",
+    "A_right_B_wrong":338,
+    "A_wrong_B_right":43,
+    "p_value_exact":6.25210368e-58
+  },
+  {
+    "variant":"V5 image+inv QR",
+    "A":"C4 QShield",
+    "B":"C3 +OCR+QR (pyzbar)",
+    "A_right_B_wrong":31,
+    "A_wrong_B_right":47,
+    "p_value_exact":0.0887824252
+  }
+]
