@@ -1,0 +1,23 @@
+[
+  {
+    "A": "DistilBERT",
+    "B": "TF-IDF + LogReg",
+    "A_right_B_wrong": 26,
+    "A_wrong_B_right": 17,
+    "p_value_exact": 0.2220528201560228
+  },
+  {
+    "A": "DistilBERT",
+    "B": "TF-IDF + Linear SVM",
+    "A_right_B_wrong": 30,
+    "A_wrong_B_right": 18,
+    "p_value_exact": 0.11140289106101878
+  },
+  {
+    "A": "TF-IDF + LogReg",
+    "B": "TF-IDF + Linear SVM",
+    "A_right_B_wrong": 7,
+    "A_wrong_B_right": 4,
+    "p_value_exact": 0.548828125
+  }
+]
