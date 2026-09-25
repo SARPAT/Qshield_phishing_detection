@@ -1,0 +1,51 @@
+{
+  "source": "PhiUSIIL Phishing URL Dataset (UCI id 967), Prasad & Chandra 2024",
+  "raw_rows": 235795,
+  "label_conflicts_removed": 0,
+  "final_rows": 235370,
+  "phishing": 100520,
+  "legitimate": 134850,
+  "per_class_profile": {
+    "legitimate": {
+      "n": 134850,
+      "median_len": 27.0,
+      "share_has_path": 0.0,
+      "share_https": 1.0,
+      "share_www": 1.0
+    },
+    "phishing": {
+      "n": 100520,
+      "median_len": 34.0,
+      "share_has_path": 0.2816,
+      "share_https": 0.4863,
+      "share_www": 0.415
+    }
+  },
+  "single_feature_accuracy": {
+    "url_len": 0.7472499509352891,
+    "has_path": 0.6974249821222281,
+    "https": 0.7944751659889442,
+    "has_www": 0.8236999216565835
+  },
+  "template_shortcut": {
+    "template_rule_accuracy": 0.9955941708798912,
+    "legit_matching_template": 1.0,
+    "phishing_matching_template": 0.010316354954237963
+  },
+  "canonical_hosts": 219036,
+  "host_label_conflicts_dropped": 58,
+  "split_counts": {
+    "train": 155670,
+    "test": 33706,
+    "val": 29660
+  },
+  "phishing_share_by_split": {
+    "test": 0.4006,
+    "train": 0.3937,
+    "val": 0.3185
+  },
+  "test_apex_only": {
+    "legit": 19665,
+    "phishing": 5624
+  }
+}
