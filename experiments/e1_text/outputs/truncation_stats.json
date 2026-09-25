@@ -1,0 +1,9 @@
+{
+  "max_len": 512,
+  "truncated_share_all": 0.23947924399017873,
+  "truncated_share_phishing": 0.20884332925336596,
+  "truncated_share_legit": 0.25772068871276305,
+  "tokens_median": 244,
+  "tokens_p90": 971,
+  "tokens_p95": 1539
+}
