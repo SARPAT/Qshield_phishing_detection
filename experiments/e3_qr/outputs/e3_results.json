@@ -1,0 +1,81 @@
+{
+  "decode_success_pct": {
+    "plain": {
+      "pyzbar": 100.0,
+      "opencv": 98.3,
+      "zxing-cpp": 100.0,
+      "any_stock": 100.0,
+      "qs_image": 100.0,
+      "qs_full": 100.0
+    },
+    "inverted_color": {
+      "pyzbar": 0.0,
+      "opencv": 0.0,
+      "zxing-cpp": 100.0,
+      "any_stock": 100.0,
+      "qs_image": 100.0,
+      "qs_full": 100.0
+    },
+    "logo": {
+      "pyzbar": 91.9,
+      "opencv": 98.0,
+      "zxing-cpp": 100.0,
+      "any_stock": 100.0,
+      "qs_image": 100.0,
+      "qs_full": 100.0
+    },
+    "styled": {
+      "pyzbar": 100.0,
+      "opencv": 99.3,
+      "zxing-cpp": 100.0,
+      "any_stock": 100.0,
+      "qs_image": 100.0,
+      "qs_full": 100.0
+    },
+    "ascii": {
+      "pyzbar": 11.1,
+      "opencv": 63.1,
+      "zxing-cpp": 100.0,
+      "any_stock": 100.0,
+      "qs_image": 100.0,
+      "qs_full": 100.0
+    },
+    "ALL": {
+      "pyzbar": 60.6,
+      "opencv": 71.7,
+      "zxing-cpp": 100.0,
+      "any_stock": 100.0,
+      "qs_image": 100.0,
+      "qs_full": 100.0
+    }
+  },
+  "median_latency_ms_NOT_comparable": {
+    "plain": {
+      "stock_ms": 41.4,
+      "qs_ms": 5.6
+    },
+    "inverted_color": {
+      "stock_ms": 30.2,
+      "qs_ms": 5.6
+    },
+    "logo": {
+      "stock_ms": 50.8,
+      "qs_ms": 7.2
+    },
+    "styled": {
+      "stock_ms": 53.9,
+      "qs_ms": 8.9
+    },
+    "ascii": {
+      "stock_ms": 34.7,
+      "qs_ms": 4.9
+    }
+  },
+  "rescue_steps": {},
+  "versions": {
+    "opencv": "5.0.0",
+    "zxing-cpp": "3.1.1",
+    "pyzbar": "0.1.9"
+  },
+  "note_ascii": "in a real email the ASCII code is TEXT: an image-only scanner sees no image (0% by construction); stock columns are measured on a rendered screenshot, generous to the baseline"
+}
