@@ -4,22 +4,24 @@
   "epochs": 3,
   "batch_size": 16,
   "lr": 2e-05,
-  "best_checkpoint": "models/distilbert_ckpt/checkpoint-2301",
-  "train_minutes": 11.85,
-  "test_infer_ms_per_email": 4.467,
-  "peak_gpu_mem_gb": 2.69,
+  "selection": "best validation F1 across 6 half-epoch checkpoints",
+  "best_checkpoint": "models/distilbert_ckpt/checkpoint-2298",
+  "best_val_f1": 0.9836567926455567,
+  "train_minutes": 13.56,
+  "test_infer_ms_per_email": 4.502,
+  "peak_gpu_mem_gb": 3.51,
   "test": {
-    "accuracy": 0.9885801294251998,
-    "precision": 0.9847094801223242,
-    "recall": 0.9847094801223242,
-    "f1": 0.9847094801223242,
-    "fpr": 0.009113001215066828,
-    "roc_auc": 0.9990921060291343,
+    "accuracy": 0.9889607917776931,
+    "precision": 0.9808080808080808,
+    "recall": 0.9898063200815495,
+    "f1": 0.9852866565195332,
+    "fpr": 0.011543134872417983,
+    "roc_auc": 0.9992874952159065,
     "confusion_tn_fp_fn_tp": [
-      1631,
-      15,
-      15,
-      966
+      1627,
+      19,
+      10,
+      971
     ]
   }
 }
